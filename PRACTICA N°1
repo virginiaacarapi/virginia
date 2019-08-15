@@ -1,0 +1,79 @@
+TECNOLOGIAS EMERGENTES II
+PRACTICA N°1
+NOMBRE: VIRGINIA ACARAPI ACARAPI
+DOCENTE: ING. MARIO TORREZ
+--------------------------------------------------------------------------------------------------------------
+1.	Explique que son sistemas empresariales
+Es unos sistemas que tienen impacto muy importante en el funcionamiento de la organización o negocio y cuya falla traería graves consecuencias.
+2.	Describa cuales son las características más importantes de una aplicación empresarial.
+•	Servicio propio
+•	Servidor de terceros
+•	Sistema operativo
+•	Bases de datos
+•	Lenguaje de programación 
+ 
+3.	Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
+
+
+
+4.	 Explique cuáles son las  diferencias entre la escalabilidad horizontal y escalabilidad vertical.
+
+La escala horizontal significa que la escala agregando más máquinas a su grupo de recursos, mientras que la escala vertical significa que la escala agregando más potencia (CPU, RAM) a una máquina existente.
+
+5.	Que es un servidor Web y que es un servidor de protocolo HTTP
+ Los servidores web son uno de los aspectos más importantes de Internet, ya que se trata de los encargados de despachar las páginas a los usuarios. Sin ellos, Internet como lo conocemos hoy en día simplemente no sería posible.
+El HTTP es el protocolo empleado para la transferencia de recursos que componen una web.
+
+
+6.	Con un gráfico explique cómo funciona el protocolo de HTTP
+
+•	El HTTP corre sobre el protocolo TCP/IP
+•	El HTTP es el protocolo empleado para la transferencias de recursos que componen una web.
+•	La Estructura del HTTP es un esquema de petición /respuesta entre un cliente y un servidor.
+ 
+
+
+7.	 Explique  los ele mentos importantes de REQUEST en HTTP
+
+($_REQUEST.REQUEST) Permite capturar variables enviados desde el formulario con los métodos GET o POST
+
+8.	Explique los elementos importantes de RESPONSE en HTTP
+Para ilustrar la forma en que un servidor web y un contenedor servlet trabajan juntos para prestar servicios a sus clientes, esta sección discute el protocolo seguido por una solicitud HTTP y su respuesta, desde el momento en que una solicitud de un cliente es recibido hasta que el servidor devuelve una respuesta.
+
+9.	Describa con su grafico la arquitectura Java EE
+La plataforma de Java EE es un conjunto de especificaciones en el API que te permiten construir aplicaciones web. Un contenedor web se encarga de implementar todas las especificaciones del API, además de proveer servicios, para el manejo y ejecución de componentes web, tales como servlets, JSPs, filters, listeners, etc.
+
+10.	Explique cuáles son los contenedores, componentes y servicios de Java EE
+	Contenedor web
+	Contenedor de negocio (o de EJBs)
+ 
+
+
+11.	Investigue los métodos más utilizados de las clases HttpServlet, HttpServleRequest y HttpServletResponse, y para cada uno de los métodos muestre un ejemplo:
+
+1.	HTTPSERVLET
+	GET doGet(HttpServlet request, TttpServletResponse response)
+	POST doPost(HttpServletRequest request, HttpServletResponse response)
+	PUT doPut(HttpServletRequest request HttpServletResponse response)
+
+	DELET doDelet (HttpServletRequest request, HttpServletResponse response)
+
+2.	HttpServleRequest y HttpServletResponse
+	getAttribute(String)
+	getContentLength()
+	getinputStream()
+	getLocalPort()
+	getRemotePort()
+	getParameter(String)
+	getParameterValues(String)
+	getParameterNames()
+	ejemplo : informacion al cliente  String Client = request.getHader(“User-Agent”);
+3.	 HttpServletResponse
+	getBufferSize()
+	setContentType()
+	getOutputStream()
+	getWriter()
+	setContentlength()
+	addCookie()
+
+
